@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        // This function ignores blank spaces and displays the last word
+        str="I just wanna sleep             "
+        function lastWord(str){
+            let strLength = str.length-1;
+            let i= 0;
+            let newStr="";
+            while(i< strLength){
+            i++
+            }
+            while(str[i] === " "){
+            i--
+            }
+            while(str[i] !== " "){
+                
+            i--
+            }
+            while(str[i] === " "){                               
+                i++
+            }
+            while(str[i] !== " "){                
+                newStr = newStr + str[i]                
+                i++                
+            }
+            console.log(newStr)
+        }
+        
+
+        lastWord(str)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

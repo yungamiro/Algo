@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        // this function counts the number of vowels in any sentence
+        function voy()
+        {
+            let count = 0;
+            let phrase = "Why do you think I'm here?";
+            for(i = 0; i< phrase.length ; i++){
+                if(phrase.charAt(i) =="a" || phrase.charAt(i) =="e" || phrase.charAt(i) =="i" || phrase.charAt(i) =="o" || phrase.charAt(i) =="u" || phrase.charAt(i) =="y"){
+                    count +=1
+                }
+                }
+                console.log(count)
+                return count;
+            }
+    </script>
+</head>
+<body>
+    <button type="button" onclick=voy()>Click</button>
+    
+</body>
+</html>
