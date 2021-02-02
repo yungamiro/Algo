@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        // This function displays each letter of the alphabet, one to lower case and the other one to upper case
+        str = "abcdefghijklmnopqrstuvwxyz";
+        strBis = str.toUpperCase();
+            function mix(str){
+                strFinal = "";              
+                i = 0;
+                j = 1;
+                while(i< str.length && j < strBis.length){
+                    strFinal = strFinal + str[i] + strBis[j]
+                    // console.log("Lower", str[i])
+                    // console.log("Upper", strBis[j])
+                    i += 2
+                    j += 2
+                }
+                console.log(strFinal)
+
+                    
+
+
+
+        }
+        mix(str)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

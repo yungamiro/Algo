@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        //This function filters any double characters to display only once of each
+        str ="Avez-vous déjà vu un ver allant vers un verre en verre vert à l'envers?"
+        str2 ="Quarante carottes crues croient que croquer crée des crampes."
+        str3=""
+        str3 = str3 + str + str2
+        function double(str3){
+            newStr = ""
+            i = 0
+            for (i=0; i<str3.length; i++){
+                if(!newStr.includes(str3[i])){
+                    newStr= newStr + str3[i]
+                }
+            }
+            return newStr
+
+
+        }
+
+        console.log(double(str3))
+        
+    </script>
+    <title>double</title>
+</head>
+<body>
+    
+</body>
+</html>

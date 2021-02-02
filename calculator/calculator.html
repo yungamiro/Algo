@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        // This function calculates simples operations "+, -, /, *"
+        function myScript(){
+            let number1 = parseInt(prompt('Indiquez un nombre'));
+            console.log("stock", number1)
+            let operation = prompt('Indiquez une opération');
+            console.log("stock", operation)
+            let number2 = parseInt(prompt('Indiquez le deuxième nombre'));
+            console.log("stock", number2)
+            let sum = number1 + number2;
+            let sub = number1 - number2;
+            let multiply = number1 * number2;
+            let divide = number1 / number2;
+
+            if(operation === "+"){
+                alert(sum)
+            } else if(operation === "-"){
+                alert(sub)
+            } else if(operation === "*"){
+                alert(multiply)
+            } else if(operation === "/"){
+                alert(divide)
+            }
+            
+
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" onclick="myScript()">Click</button>
+    
+</body>
+</html>
